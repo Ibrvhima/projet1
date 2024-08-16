@@ -12,45 +12,45 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
+  
 }
 
 .logo {
-  margin: 2rem 9rem;
+  margin: 1.4rem 4rem;
 }
 .Logatype {
-  height: 2.4rem;
+  height: 2rem;
 }
 .navigation {
-  margin: 2rem 4.8rem;
+  margin: 1.6rem;
 }
 .navigation ul {
   display: flex;
   list-style: none;
-  gap: 3rem;
+  gap: 1.6rem;
 }
 
 .list--links a:link,
 .list--links a:visited {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
   color: #333;
-  padding: 8px 20px;
+  padding: 5px ;
 }
 
 .btn-register a:link,
 .btn-register a:visited {
   background-color: #1f438f;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px;
   border-radius: 8px;
 }
 
 .btn-login a:link,
 .btn-login a:visited {
-  border: 3px solid #1f438f;
+  border: 2px solid #1f438f;
   border-radius: 8px;
 }
 
@@ -58,11 +58,11 @@ body {
 .hero-section {
   background-image: url("images/background.jpg");
   background-size: cover;
-  padding: 4.8rem 9.6rem;
+  padding: 3rem 9.6rem;
 }
 
 .hero-presentation {
-  max-width: 45rem;
+  max-width: 35rem;
   background-color: #638bd28a;
   color: #fff;
   padding: 2rem;
@@ -70,13 +70,13 @@ body {
 }
 
 .headding-primary {
-  font-size: 4rem;
+  font-size: 3.2rem;
   text-transform: capitalize;
   margin-bottom: 2rem;
 }
 
 .presentation-text {
-  font-size: 1.8rem;
+  font-size: 20px;
   word-spacing: 0.55rem;
   margin-bottom: 2rem;
 }
@@ -93,7 +93,7 @@ body {
 
 /*****************************************section services*******************************/
 .services-section {
-  padding: 4.8rem 9.6rem;
+  padding: 4rem 9.6rem;
 }
 
 .service {
@@ -101,12 +101,12 @@ body {
 }
 
 .headding-secondary {
-  font-size: 2rem;
-  margin-bottom: 1.8rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .servics-description {
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   word-spacing: 0.7;
@@ -118,27 +118,28 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 .box {
   border-radius: 9px;
   background-color: #f1f3fa;
   max-width: 15rem;
-  padding: 2rem;
+  padding: 1.8rem;
 }
 
 .box-headding {
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 1rem;
 }
 
 .lorem {
   line-height: 1.5em;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .service-link {
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
   color: #1f438f;
 }
 
@@ -160,41 +161,42 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  gap: 2rem;
 }
 .about-image {
-  height: 25rem;
+  height: 20rem;
   border-radius: 15px;
 }
 
 .headding-tertiary {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 1.6rem;
 }
 
 .about-description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
   margin-bottom: 1.8rem;
 }
 
 .side-right {
-  padding: 4rem 0;
+  padding: 3rem 0;
   max-width: 30rem;
 }
 
 .about-link {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   background: #1f438f;
   border-radius: 9px;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 /*****************************************section cours ************************************/
 .section-courses {
-  padding: 4.8rem 9.6rem;
+  padding: 4rem 9.6rem;
 }
 
 .box-courses {
@@ -205,7 +207,7 @@ body {
 }
 
 .headding-secondary {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -217,16 +219,16 @@ body {
   border-radius: 8px;
 }
 .image-cours {
-  height: 15rem;
+  height: 9rem;
 }
 
 .desc {
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 .headding-tertiary-cours {
-  font-weight: 800;
-  padding-bottom: 1.4rem;
+  font-weight: 600;
+  padding-bottom: 1.8rem;
 }
 
 .flexy {
@@ -234,13 +236,14 @@ body {
   justify-content: space-between;
 }
 
-.descover-link {
+.descover-link:link, .descover-link:visited {
+  font-size: 10px;
   background-color: #1f438f;
   border-radius: 8px;
   text-decoration: none;
   color: #fff;
   font-weight: 400;
-  padding: 5px 20px;
+  padding: 10px 15px;
 }
 
 .more-courses {
@@ -249,7 +252,7 @@ body {
   color: #fff;
   background-color: #1f438f;
   padding: 10px 20px;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 8px;
 }
 .buton {
@@ -259,6 +262,7 @@ body {
 
 .star {
   color: #1f438f;
+  font-size: 10px;
 }
 /**************************************** Section team ******************************************/
 .section-team {
