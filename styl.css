@@ -272,17 +272,17 @@ body {
   background-color: #f1f3fa;
 }
 
-.teams {
-  text-align: center;
-}
+
 
 .team-title {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .meet-teacher {
   font-size: 1.4rem;
   margin: 1.6rem 0;
+  text-align: center;
 }
 
 .image-teacher {
@@ -294,7 +294,8 @@ body {
 .teachers {
   display: flex;
   justify-content: space-around;
-  gap: 3rem;
+  text-align: center;
+  align-items: center;
 }
 
 .teacher-box {
