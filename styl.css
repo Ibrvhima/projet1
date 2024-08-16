@@ -53,7 +53,7 @@ body {
   border-radius: 8px;
 }
 
-/************************************section hero***************************************/
+/********************************section hero*********************************/
 .hero-section {
   background-image: url("images/background.jpg");
   background-size: cover;
@@ -76,7 +76,6 @@ body {
 
 .presentation-text {
   font-size: 20px;
-  word-spacing: 0.55rem;
   margin-bottom: 2rem;
 }
 
@@ -105,6 +104,7 @@ body {
 }
 
 .servics-description {
+  padding: 0 8rem;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -267,7 +267,7 @@ body {
   color: #1f438f;
   font-size: 10px;
 }
-/**************************************** Section team ******************************************/
+/******************************** Section team **********************************/
 .section-team {
   padding: 3rem 9rem;
   background-color: #f7f7fc85;
@@ -345,11 +345,31 @@ body {
   box-shadow: 1px 2px 2px 3px #e6e6e7;
   max-width: 35rem;
   overflow: hidden;
+  position: relative;
 }
 
 .text-testimonials {
   line-height: 1.5rem;
   margin-bottom: 10px;
+}
+.text-testimonials::before{
+  content: "“";
+  font-weight: 700;
+  font-size: 2rem;
+  color: #777;
+  position: absolute;
+  top: 1.4rem;
+  left: 13.3rem;
+}
+
+.text-testimonials::after{
+  content: "”";
+  font-weight: 700;
+  font-size: 2rem;
+  color: #777;
+  position: absolute;
+  top: 7.7rem;
+  left: 21.2rem;
 }
 
 .student {
