@@ -284,8 +284,8 @@ body {
 }
 
 .image-teacher {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -299,8 +299,8 @@ body {
 .teacher-box {
   text-align: center;
   background-color: #f3f1f1;
-  padding: 1.2rem 0;
-  max-width: 10rem;
+  padding: 1.2rem;
+  max-width: 14rem;
   border-radius: 7px;
 }
 
