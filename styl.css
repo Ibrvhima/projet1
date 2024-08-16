@@ -90,7 +90,7 @@ body {
   border-radius: 8px;
 }
 
-/*****************************************section services*******************************/
+/**********************************section services*******************************/
 .services-section {
   padding: 4rem 9.6rem;
 }
@@ -127,12 +127,13 @@ body {
 }
 
 .box-headding {
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .lorem {
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 1.2em;
   margin-bottom: 10px;
 }
 
@@ -151,7 +152,7 @@ body {
   margin-bottom: 10px;
 }
 
-/**********************************section about us**********************************************/
+/**********************************section about us************************/
 .section-about {
   padding: 3rem 9.6rem;
 }
