@@ -13,13 +13,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
 }
 
 .logo {
-  margin: 1.4rem 4rem;
+  margin: 0 4rem;
 }
 .Logatype {
-  height: 2rem;
+  height: 2.4rem;
 }
 .navigation {
   margin: 1.6rem;
@@ -57,21 +62,23 @@ body {
 .hero-section {
   background-image: url("images/background.jpg");
   background-size: cover;
-  padding: 3rem 9.6rem;
+  padding:  0 9.6rem 4rem 9.6rem;
 }
 
 .hero-presentation {
   max-width: 35rem;
   background-color: #638bd28a;
   color: #fff;
-  padding: 2rem;
+  padding:2rem;
   border-radius: 6px;
+  margin-top: 2rem;
 }
 
 .headding-primary {
   font-size: 3.2rem;
   text-transform: capitalize;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .presentation-text {
@@ -194,7 +201,7 @@ body {
   padding: 10px 15px;
 }
 
-/*****************************************section cours ************************************/
+/*********************************section cours ********************************/
 .section-courses {
   padding: 4rem 9.6rem;
 }
@@ -352,7 +359,7 @@ body {
   line-height: 1.5rem;
   margin-bottom: 10px;
 }
-.text-testimonials::before{
+.text-testimonials::before {
   content: "“";
   font-weight: 700;
   font-size: 2rem;
@@ -362,7 +369,7 @@ body {
   left: 13.3rem;
 }
 
-.text-testimonials::after{
+.text-testimonials::after {
   content: "”";
   font-weight: 700;
   font-size: 2rem;
@@ -415,7 +422,7 @@ footer h4 {
   display: flex;
   text-align: center;
 }
-.contacts-footer li .address{
+.contacts-footer li .address {
   font-size: 16px;
   color: #1f438f;
   padding-right: 10px;
