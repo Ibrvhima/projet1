@@ -18,6 +18,7 @@ body {
   left: 0;
   right: 0;
   background-color: #fff;
+  z-index: 1000;
 }
 
 .logo {
@@ -63,6 +64,7 @@ body {
   background-image: url("images/background.jpg");
   background-size: cover;
   padding:  0 9.6rem 4rem 9.6rem;
+  margin-top: 4.4rem;
 }
 
 .hero-presentation {
@@ -168,11 +170,16 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 6rem;
 }
 .about-image {
-  height: 20rem;
-  border-radius: 15px;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  transform: 0.3s ease;
+  
 }
 
 .headding-tertiary {
@@ -185,6 +192,13 @@ body {
   line-height: 1.5;
   font-weight: 500;
   margin-bottom: 1.8rem;
+}
+.side-left{
+  border: 2px solid #1f438f8a;
+  position: relative;
+  top: -10px;
+  right: 20px;
+  border-radius: 10px;
 }
 
 .side-right {
